@@ -49,7 +49,7 @@
         </svg>
       </button>
     </nav>
-    <div class="hidden top-navbar w-full" id="navigation">
+    <div class="hidden top-navbar w-full" id="navigation">    
       <div class="lg:hidden w-full items-start flex flex-col">
         <a
           href="#"
@@ -91,7 +91,7 @@
     </div>  
     <div class="px-3 sm:px-8"><input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline lg:hidden xl:hidden" id="search" type="text" placeholder="Search"></div>
     <div class="hidden px-8 mt-2 lg:flex xl:flex justify-center">
-      <div class="flex-1 text-center mt-4">
+      <div class="flex-1 text-center mt-4 text-sm">
         <svg class="inline mx-3" 
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -141,7 +141,8 @@
           </div>
         </div>
     </div>
-    <div class="hidden text-center p-4 mt-6 lg:block xl:block">
+    <hr class="mt-8">
+    <div class="hidden text-center p-4 lg:block xl:block">
       <a href="/home" class="px-4 text-sm">HOME</a>
       <a href="/shop" class="px-4 text-sm underline" style="color: #8ed1b7;">SHOP</a>
       <a href="/element" class="px-4 text-sm">ELEMENT</a>
@@ -159,7 +160,7 @@
     <div class="px-6 lg:px-48 xl:px-64">
       <div class="px-2 py-8">
         <div class="inline-block inline-flex">
-          <a href="#"><svg class="inline-block"
+          <a href="#"><svg class="inline-block mr-3"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
             width="15px" height="9px">
@@ -179,8 +180,8 @@
         <div class="inline-block float-right">
           <a href="#" class="inline-flex"><i class="material-icons">search</i><div class="hidden md:block">SEARCH</div></a>
         </div>
-        <div>
-            line
+        <div class="m-2">
+          <hr>
         </div>
       </div>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
@@ -674,12 +675,12 @@
         width="154px" height="65px">
        <image  x="0px" y="0px" width="154px" height="65px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJoAAABBCAMAAAAe2E3JAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAZlBMVEX///9WVlbx8fHGx8fU1dXq9vHj8+3x+faAgYE5OjpISEjj4+Nyc3MrLCyqqqrN69+q3cmV1Lyx387U7uT4/PpkZWW4uLi54tLG6Nvc8eij2sWc18CcnJyOjo7A5dcdHh6O0bf///+QqBh7AAAAH3RSTlMAvxBAMDBAII/fzyCf72Bwv++vYBCvUJ+AUM/fcICPBxHsHwAAAAFiS0dEAIgFHUgAAAAHdElNRQfkBR8ABQWMhjtHAAAETUlEQVRo3u2a2YKqMAxA2WVRAUFEUOH/v/ICXZJ0URzv6DyYN0psz2RrWsZx7sggxHX+mnzRvmhftC/aF+13xPNnCe6gBbOCZ/xxGM2ysc++WRTCH3AFcSIw0ljiYbRsu+Pv9+qqeTFyKQ9VrU9e5wehMBY5V8hcELGgd4SxhoO5A5Fkr6HF6LWLLVefRiJlq4K1paLA4LYwYconPGpD+0GTpCFoaUreotA703Vn6Yjbwl5T6JkCssdxGbjAwM5KNgxXgmZ8O0s1GqREbEaFsVrch/7ey/TsIzLm4mxnWjy7i7YTNjMujNhCs8K4KARo5cDx0BMPqNi09tG5izawIK1Ly8qdiLPeotAv8dZgDyIbCqfIoSS+XrcpXtqOFi/vT6NNKjZ3a1VotehS7YLWT1jkZZepjCSOipZcfP8KP18SYQMrFbOHzmCjnk0AVu2i6THqwOdamkpJPRUtlaG7T64qGlOHhFmCLQcyzX8hzYGOkdTAVik+g6kzR0WbHCpKveepaD4bALPNT4VcR2wDwNJSh0dcIZIjJ75UoqKh/Yhwp9s9QKO6xgdcgibdJaLeqakdJXspp+zV3wRKgcB7zVXz9cVT0VwjmuS4yck6gqY6nFhajDRk8RiRkXoi3L1fgwZZ0FpWNrDfNDRim6NDJDDU3HgFWrQeDRRaHQ3vRluKNjUVOpv/GK2+h1YStINUOGlo1DJqW+NksZrE7jOxBivLKH8YayIz1HjyHU285kpaI+8xmuToxSQbSiufRtHF1Sqtp9oElbVptwBQP95h+gdo4JxKi6ScouVcAao0zww9llLUDe6GLcA1T6BBgeWtBiQGK8KjqhDCzsUGLoMukKVLgiRXX/krVqChLbK8RdEZ7fbMXSOS03Q0gMrBY6AZTCJrm+x606kjh5jMVqDZG4tIQ1OkUpJz56Mdi6dpZgRnvccjNCj+ivAN0k62WNUjNAFKhcDqbQH+EC0095K8z7CjsZYIVYTYIaWXHQ0SIxmryg/RzGyCzIrGzi34SKVm65KmfmIlW4HmbArdm/IoaiE71I7JSKQJYgT7owKW8OPpGrSphND+v4jgldnbTAGFlmzR8M5w4UNNLHPTjRs5tTxKi3SO5YiDJLxx05VFTu4WwINFyRVacdhCB3XYNwN0pMe7wuRc5wUx3GfQhPxT8kX7or0d7fRpEgtaf9u8PtVvoJ3On6aYRLfN2Cn3px8yXyvbcCtJ3Xc/uWh+UcKO3kYaZb5tzldN9x+FHUcesLEGvXivV8Uh7y6bODq0q6f9LyIOJKU1H2vx7aCsn5n4dYFb3Zt5ZbjEf3uwwV24+GSBJYJeuHg3GblyLmmZ3eSoDy4/Udrowa+4tefpUJy3Be3Po9cXel5q26EUS/X6Or/E9iEyVB8sUn5yp2/vkXWf7Y3CwmqyN28CBqmMX8zK05v3ALNE2le1Lv8TYIucb9Kx3SH/e/33/C8Kr1jrH1sGf9hti47LAAAAAElFTkSuQmCC" />
        </svg>
-       <div class="left-align">Watson Website Builder is a big library of pre-designed web elements which help you create website in few minutues.</div>
-       <a href="#">Read more>></a>
+       <div class="left-align mt-3 mb-5" style="color: #7b7c85">Watson Website Builder is a big library of pre-designed web elements which help you create website in few minutues.</div>
+       <a href="#" style="color: #7b7c85">Read more>></a>
       </div>
       <div class="p-10">
-        <div class="font-bold">Useful Link</div>
-        <div>
+        <div class="font-medium">Useful Link</div>
+        <div class="text-sm mt-6" style="color: #7b7c85">
           <ul class="block float-left">
             <li><a href="#">Our Brands</a></li>
             <li><a href="#">Special Offers</a></li>
@@ -704,29 +705,29 @@
          <path fill-rule="evenodd"  fill="rgb(0, 0, 0)"
           d="M14.261,2.079 L12.701,2.079 C12.192,2.079 11.776,2.478 11.776,2.970 L11.776,4.473 C11.776,4.964 12.192,5.364 12.701,5.364 L14.261,5.364 C14.771,5.364 15.185,4.964 15.185,4.473 L15.185,2.970 C15.185,2.478 14.771,2.079 14.261,2.079 ZM14.376,4.473 C14.376,4.534 14.325,4.584 14.261,4.584 L12.701,4.584 C12.638,4.584 12.586,4.534 12.586,4.473 L12.586,2.970 C12.586,2.908 12.638,2.859 12.701,2.859 L14.261,2.859 C14.324,2.859 14.376,2.908 14.376,2.970 L14.376,4.473 ZM13.357,0.001 L3.643,0.001 C1.634,0.001 -0.000,1.577 -0.000,3.513 L-0.000,12.487 C-0.000,14.423 1.634,15.998 3.643,15.998 L13.357,15.998 C15.366,15.998 17.001,14.423 17.001,12.487 L17.001,3.513 C17.001,1.577 15.366,0.001 13.357,0.001 ZM16.191,12.487 C16.191,13.993 14.920,15.218 13.357,15.218 L3.643,15.218 C2.080,15.218 0.809,13.993 0.809,12.487 L0.809,6.634 L4.890,6.634 C4.118,7.464 3.643,8.556 3.643,9.755 C3.643,12.337 5.822,14.438 8.500,14.438 C11.179,14.438 13.357,12.337 13.357,9.755 C13.357,8.556 12.883,7.464 12.110,6.634 L16.191,6.634 L16.191,12.487 ZM8.500,5.854 C10.732,5.854 12.548,7.604 12.548,9.755 C12.548,11.907 10.732,13.657 8.500,13.657 C6.268,13.657 4.452,11.907 4.452,9.755 C4.452,7.604 6.268,5.854 8.500,5.854 ZM16.191,5.854 L11.180,5.854 C10.411,5.362 9.490,5.074 8.500,5.074 C7.510,5.074 6.590,5.362 5.821,5.854 L0.809,5.854 L0.809,3.513 C0.809,2.007 2.080,0.781 3.643,0.781 L13.357,0.781 C14.920,0.781 16.191,2.007 16.191,3.513 L16.191,5.854 ZM8.500,12.487 C10.063,12.487 11.334,11.262 11.334,9.755 C11.334,8.249 10.063,7.024 8.500,7.024 C6.938,7.024 5.667,8.249 5.667,9.755 C5.667,11.262 6.938,12.487 8.500,12.487 ZM8.500,7.805 C9.616,7.805 10.524,8.680 10.524,9.755 C10.524,10.831 9.616,11.706 8.500,11.706 C7.384,11.706 6.476,10.831 6.476,9.755 C6.476,8.680 7.384,7.805 8.500,7.805 Z"/>
          </svg></div>
-          <div class="inline-block">Instagram</div>
+          <div class="inline-block mb-5 ml-1">Instagram</div>
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
-            <div class="m-2" style="width: 86px; height: 86px; background-color: #e7a8c6;">
+            <div class="m-2" style="width: 60px; height: 60px; background-color: #e7a8c6;">
             </div>
-            <div class="m-2" style="width: 86px; height: 86px; background-color: #1d1e24;">
+            <div class="m-2" style="width: 60px; height: 60px; background-color: #1d1e24;">
             </div>
-            <div class="m-2" style="width: 86px; height: 86px; background-color: #e7a8c6;">
+            <div class="m-2" style="width: 60px; height: 60px; background-color: #e7a8c6;">
             </div>
-            <div class="m-2" style="width: 86px; height: 86px; background-color: #1d1e24;">
+            <div class="m-2" style="width: 60px; height: 60px; background-color: #1d1e24;">
             </div>
-            <div class="m-2" style="width: 86px; height: 86px; background-color: #8ed1b7;">
+            <div class="m-2" style="width: 60px; height: 60px; background-color: #8ed1b7;">
             </div>
-            <div class="m-2" style="width: 86px; height: 86px; background-color: #e7a8c6;">
+            <div class="m-2" style="width: 60px; height: 60px; background-color: #e7a8c6;">
             </div>
-            <div class="m-2" style="width: 86px; height: 86px; background-color: #1d1e24;">
+            <div class="m-2" style="width: 60px; height: 60px; background-color: #1d1e24;">
             </div>
-            <div class="m-2" style="width: 86px; height: 86px; background-color: #8ed1b7;">
+            <div class="m-2" style="width: 60px; height: 60px; background-color: #8ed1b7;">
             </div>
           </div>
       </div>
     </div>
     <div class="px-64 my-8">
-      <div class="inline-block text-xs">2002-2018 themexpert Inc. All rights reserved.</div>
+      <div class="inline-block text-xs" style="color: #7b7c85">2002-2018 themexpert Inc. All rights reserved.</div>
       <div class="inline-block float-right">
           <svg 
  xmlns="http://www.w3.org/2000/svg"
