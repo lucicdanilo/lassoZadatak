@@ -6099,6 +6099,22 @@ video {
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.font-alex-brush {
+  font-family: 'Alex Brush', cursive;
+}
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.font-lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.font-titillium {
+  font-family: 'Titillium Web', sans-serif;
+}
+
 .font-serif {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 }
