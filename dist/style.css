@@ -13360,6 +13360,7 @@ video {
 
 .text-center-webkit {
   text-align: -webkit-center;
+  text-align: -moz-center;
 }
 
 .text-right {
