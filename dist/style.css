@@ -58218,6 +58218,10 @@ video {
     font-size: 4rem;
   }
 
+  .lg\:text-7xl {
+    font-size: 5.5rem;
+  }  
+
   .lg\:leading-3 {
     line-height: 0.75rem;
   }
@@ -75494,6 +75498,10 @@ video {
 
   .xl\:text-6xl {
     font-size: 4rem;
+  }
+
+  .xl\:text-7xl {
+    font-size: 6rem;
   }
 
   .xl\:leading-3 {
